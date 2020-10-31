@@ -1,0 +1,29 @@
+
+/*@import url('https://fonts.googleapis.com/css?family=Roboto'); */
+
+* {
+	margin: 0;
+	padding: 0;
+  display: block;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background: #f0f2f5;
+}
+
+/* ********** navbar ******** */
+nav.navbar{
+	font-size: 1.15rem;
+	font-weight: 600;
+	letter-spacing: .2rem;
+	box-shadow: 0.rem .5rem rgba(0, 0, 0, 0.9);
+	z-index: 1;
+
+}
+
+
+/* ****** login page *******/
+.login_head{
+	border: 1px solid black;
+}
