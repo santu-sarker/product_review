@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="./assets/images/icon.png">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
-  <link rel="stylesheet" type='text/css' href="../css/index.css">
+  <link rel="stylesheet" type='text/css' href="../css/registration_page.css">
   <script defer src="../javascript/login_validation.js"></script>
   <title>Login Page</title>
 </head>
@@ -15,25 +15,25 @@
     <div class="container-fluid p-0 main_div">
 
       <div class="">
-        <?php include './side_views/login_navbar.php' ?>
+        <?php include './login_navbar.php'?>
       </div>
 
       <div class="row justify-content-center my-5">
-        <div class="row ">
+        <div class="row justify-content-center error">
           <h1 id="error_message" class="col-5 text-center"></h1>
         </div>
-        <div class="card col-5 justify-content-center p-5 m-5">
+        <div class="card col-lg-5 col-md-7 col-sm-10 col-12 justify-content-center p-5 m-5">
           <form id="form_signin" action="../Class/handle_login.class.php" method="POST">
             <h1 class="h3 mb-3 text-center login_head p-2">Please sign in</h1>
             <div class="card-body justify-content-center">
               <div class="row my-4">
-                <label for="input_email" class="col-2 mt-2">Email </label>
-                <input type="email" id="input_email" class="form-control col-10 " placeholder="Email address" required autofocus>
+
+                <input type="email" id="input_email" name="input_email" class="form-control col-12 " placeholder="Email address" required autofocus>
 
               </div>
-              <div class="row my-5">
-                <label for="input_password" class="col-2 mt-2">Pass</label>
-                <input type="password" id="input_password" class="form-control col-10" placeholder="Password" required>
+              <div class="row my-3">
+
+                <input type="password" id="input_password" name="input_password" class="form-control col-12" placeholder="Password" required>
 
               </div>
 
@@ -45,7 +45,7 @@
 
             </div>
 
-            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+            <button class="btn btn-lg btn-primary btn-block" type="submit" id="submit" name="submit">Sign in</button>
           </form>
 
 

@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse justify-content-end " id="login_navbar">
         <ul class="navbar-nav text-center">
           <li class="nav-item "><a href="./login_page.php" class="nav-link">Login</a></li>
-          <li class="nav-item "><a href="./register_page.php" class="nav-link">Register</a></li>
+          <li class="nav-item "><a href="./user_register_page.php" class="nav-link">Register</a></li>
         </ul>
     </div>
   </div>

@@ -15,7 +15,7 @@
     <div class="container-fluid p-0 main_div">
 
       <div class="">
-        <?php include './views/side_views/login_navbar.php' ?>
+
       </div>
     </div>
 
