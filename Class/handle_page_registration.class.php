@@ -1,3 +1,3 @@
 <?php
 
-echo 'dat received ';
+echo 'data received ';
